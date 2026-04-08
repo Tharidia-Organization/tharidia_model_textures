@@ -1,5 +1,5 @@
 {
-	"format_version": "1.12.0",
+	"format_version": "1.21.0",
 	"minecraft:geometry": [
 		{
 			"description": {
@@ -13662,6 +13662,20 @@
 					"name": "Sphere22",
 					"parent": "Sphere",
 					"pivot": [30.01863, 21.84205, -65.73137]
+				},
+				{
+					"name": "liquid",
+					"parent": "Sphere",
+					"pivot": [29.95733, 12.39879, -65.79267],
+					"cubes": [
+						{
+							"origin": [22.95733, 16.39879, -72.79267],
+							"size": [14, 0, 14],
+							"uv": {
+								"up": {"uv": [502, 32], "uv_size": [-32, -32]}
+							}
+						}
+					]
 				},
 				{
 					"name": "First_stage_distillation",
